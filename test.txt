@@ -1,0 +1,3 @@
+git add . で変更をステージ
+git commit -m "メッセージ" でコミット
+git push でGitHub上のリポジトリに反映
