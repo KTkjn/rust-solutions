@@ -17,6 +17,8 @@ Rustの練習帳
  ネズミ? : ヒント
  トリ : 興味深いこと
  サソリ : 警告
+ テッド・ネルソン「コンピュータの良いところは、あなたの指示したとおりに動くところだ。悪いところは、あなたの指示したととおりに動くことだ」
+ "The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do."
 -----------------------------------------------------------------------------------------
 RustのShellCommand
  rustup : Rustのinstallやupdate,管理を簡単にできる
@@ -27,15 +29,17 @@ RustのShellCommand
  cargo fmt : コードの自動整形｡著者はvimでファイルを保存するたびに実行されるようにしているらしい｡
  cargo clippy : コードの問題点を指摘してくれる
  rustc filename.rs : コンパイル
- cargo run : cargo内でのコンパイル(-qで静かに実行)
+ cargo run : cargo内でのコンパイル(-qで静かに実行)(--ディレクトリ名 コード名)
  cargo new directlyname
  cargo help コマンド名
  cargo test : testsフォルダだのコードを実行する
+ 関係ないけど、echo $? で一つ前のコマンドが通ったかどうかわかる
 
 
 -----------------------------------------------------------------------------------------
 コード
  https://oreil.ly/pfhMC サンプルプログラム､テストコード､データ､解答がある
+ std::env::args() 引数を構造体で受け取る
 
 -----------------------------------------------------------------------------------------
 1章
